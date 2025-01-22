@@ -74,11 +74,11 @@
         const timerText = document.querySelector("#timer");
 
         setInterval(() => {
-            const monk = new Date("2025-01-22T18:55:00Z").getTime();
+            const now = new Date().getTime();
             const bald = new Date("2025-02-22T18:55:00Z").getTime();
 
             // get total seconds between the times
-            var delta = Math.abs(monk - bald) / 1000;
+            var delta = Math.abs(now - bald) / 1000;
 
             // calculate (and subtract) whole months
             var months = Math.floor(delta / 2629746);
