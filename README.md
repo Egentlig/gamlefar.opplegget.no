@@ -1,2 +1,2 @@
-# monk.opplegget.no
+# gamlefar.opplegget.no
 Opplegg
