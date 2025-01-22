@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nb">
+<html lang="en">
 <head>
     <style>
         body {
@@ -46,12 +46,12 @@
             max-height: 200px;
         }
     </style>
-    <title>Munky Ruben</title>
+    <title>Oldage Ruben</title>
 </head>
 <body>
 
 <div class="content">
-    <h3>Ruben is munk</h3>
+    <h3>Oldage Ruben</h3>
 </div>
 
 <div id="timerWrapper" class="content hide">
@@ -60,7 +60,7 @@
 
 <div class="content">
     <p>
-        Munky Ruben lives in <a href="https://ll.opplegget.no">LL Monastery</a>
+        Old man Ruben has a <a href="https://ll.opplegget.no">farm</a>
     </p>
 </div>
 
@@ -99,7 +99,7 @@
             // what's left is seconds
             var seconds = Math.floor(delta % 60);  // in theory the modulus is not required
 
-            timerText.innerText = `Ruben must be munk for ${months} month${months !== 1 ? "s" : ""}, ${days} day${days !== 1 ? "s" : ""}, ${hours} hour${hours !== 1 ? "s" : ""}, ${minutes} minute${minutes !== 1 ? "s" : ""} og ${seconds} second${seconds !== 1 ? "s" : ""}`;
+            timerText.innerText = `Ruben must keep this haircut for ${months} month${months !== 1 ? "s" : ""}, ${days} day${days !== 1 ? "s" : ""}, ${hours} hour${hours !== 1 ? "s" : ""}, ${minutes} minute${minutes !== 1 ? "s" : ""} og ${seconds} second${seconds !== 1 ? "s" : ""}`;
             timerWrapper.classList.remove("hide");
         }, 1000);
     });
