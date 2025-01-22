@@ -99,7 +99,7 @@
             // what's left is seconds
             var seconds = Math.floor(delta % 60);  // in theory the modulus is not required
 
-            timerText.innerText = `Ruben må beholde denne sveisen i ${months} måned${months !== 1 ? "er" : ""}, ${days} dag${days !== 1 ? "er" : ""}, ${hours} time${hours !== 1 ? "r" : ""}, ${minutes} minutt${minutes !== 1 ? "er" : ""} og ${seconds} sekund${seconds !== 1 ? "er" : ""} til`;
+            timerText.innerText = `Ruben må beholde denne klippen i ${months} måned${months !== 1 ? "er" : ""}, ${days} dag${days !== 1 ? "er" : ""}, ${hours} time${hours !== 1 ? "r" : ""}, ${minutes} minutt${minutes !== 1 ? "er" : ""} og ${seconds} sekund${seconds !== 1 ? "er" : ""} til`;
             timerWrapper.classList.remove("hide");
         }, 1000);
     });
