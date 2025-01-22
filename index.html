@@ -54,10 +54,6 @@
     <h3>Ruben er munk</h3>
 </div>
 
-<div class="content">
-    <h1>Ruben er munk</h1>
-</div>
-
 <div id="timerWrapper" class="content hide">
     <p id="timer">...</p>
 </div>
@@ -82,7 +78,7 @@
             const bald = new Date("2025-02-22T18:55:00Z").getTime();
 
             // get total seconds between the times
-            var delta = Math.abs(bald - monk) / 1000;
+            var delta = Math.abs(monk - bald) / 1000;
 
             // calculate (and subtract) whole months
             var months = Math.floor(delta / 2629746);
